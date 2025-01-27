@@ -1,0 +1,160 @@
+/* App Wrapper */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Header Styling */
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
+
+/* Dashboard Sections */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.dashboard-container h1 {
+  margin-bottom: 20px;
+  color: #495057;
+}
+
+.dashboard-content {
+  width: 100%;
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Buttons */
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Unauthorized Page */
+.unauthorized-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Login Form */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e9ecef;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+  color: #212529;
+}
+
+.login-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+}
+
+/* Search and Listing */
+.search-bar {
+  margin: 20px 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+/* Product Cards */
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #212529;
+}
+
+.product-card p {
+  color: #495057;
+}
+
+.product-card button {
+  margin-top: 10px;
+}
